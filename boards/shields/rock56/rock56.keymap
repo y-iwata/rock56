@@ -28,7 +28,7 @@
             bindings = <
 &trans &trans        &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans   &trans   &trans
 &trans &trans        &trans &trans  &trans  &trans       &kp HOME &kp CARET &kp GRAVE &kp END  &kp END  &trans
-&trans &trans        &trans &kp MB1 &kp MB2 &kp PG_UP    &kp LEFT &kp DOWN  &kp UP    &kp RIGH &kp AT   &trans
+&trans &trans        &trans &trans  &trans  &kp PG_UP    &kp LEFT &kp DOWN  &kp UP    &kp RIGH &kp AT   &trans
 &trans &trans        &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans   &trans   &trans
                      &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans
             >;
