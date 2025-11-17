@@ -27,7 +27,7 @@
             display-name = "Lower Layer";
             bindings = <
 &trans &trans        &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans   &trans   &trans
-&trans &trans        &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans   &trans   &trans
+&trans &trans        &trans &trans  &trans  &trans       &kp HOME &kp CARET &kp GRAVE &kp END  &kp END  &trans
 &trans &trans        &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans   &trans   &trans
 &trans &trans        &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans   &trans   &trans
                      &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans
