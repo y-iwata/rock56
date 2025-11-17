@@ -30,5 +30,43 @@
                  &mt LGUI INT_MUHENKAN     &lt 2 RET &mo 1  &lt 3 ESC       &lt 3 DEL &mo 1  &lt 2 SPACE &mt RALT INT_HENKAN
             >;
         };
+
+        lower_layer {
+            display-name = "Lower Layer";
+/*
+------------------------------------------------------------------------------------------------------------
+|      |             |      |       |       |      |     |        |         |         |        |        |      |
+|      |             |      |       |       |      |     | HOME   |   ^     |   `     |  END   |        |      |
+|      |SCRL_UP      |      | MB1   | MB2   |PG_UP |     |  ←    |  ↓     |  ↑     |  →    |  @     |      |
+|      |SCRL_DOWN    |      |       |       |PG_DN |     |        |         |         |        | "|"    |      |
+                     |      |       |       |      |     |        |         |
+*/
+            bindings = <
+&trans &trans        &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans   &trans   &trans
+&trans &trans        &trans &trans  &trans  &trans       &kp HOME &kp CARET &kp GRAVE &kp END  &kp END  &trans
+&trans &kp SCRL_UP   &trans &kp MB1 &kp MB2 &kp PG_UP    &kp LEFT &kp DOWN  &kp UP    &kp RIGH &kp AT   &trans
+&trans &kp SCRL_DOWN &trans &trans  &trans  &kp PG_DN    &trans   &trans    &trans    &trans   &kp PIPE &trans
+                     &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans
+            >;
+        };
+
+        raise_layer {
+            display-name = "Raise Layer";
+/*
+------------------------------------------------------------------------------------------------------------
+|      |         |         |         |         |      |     |        |         |        |        |         |      |
+|      |  1      |  2      |  3      |  4      |  5   |     |  6     |   7     |   8    |  9     |   0     |  `   |
+|      |  !      |  "      |  #      |  $      |  %   |     |  &     |   '     |   [    |  ]     |   :     |      |
+|      |  ~      |  _      |  =      |  -      |  ?   |     |  +     |   -     |   {    |  }     |   \     |      |
+                 |         |         |         |      |     |        |         |        |        |
+*/
+            bindings = <
+&trans &trans    &trans    &trans    &trans    &trans       &trans   &trans    &trans   &trans   &trans    &trans
+&trans &kp N1    &kp N2    &kp N3    &kp N4    &kp N5       &kp N6   &kp N7    &kp N8   &kp N9   &kp N0    &kp GRAVE
+&trans &kp EXCL  &kp DQT   &kp HASH  &kp DLLR  &kp PRCNT    &kp ANPS &kp SQT   &kp LBKT &kp RBKT &kp COLON &trans
+&trans &kp TILDE &kp MINUS &kp EQUAL &kp QMARK &kp F12      &kp PLUS &kp LBRC  &kp RBKC &kp BSLH &ktrans   &trans
+                             &trans  &trans    &trans       &trans   &trans    &trans   &trans
+            >;
+        };
     };
 };
