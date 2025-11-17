@@ -26,10 +26,10 @@
         lower_layer {
             display-name = "Lower Layer";
             bindings = <
-&trans &trans        &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans   &trans   &trans
-&trans &trans        &trans &trans  &trans  &trans       &kp HOME &kp CARET &kp GRAVE &kp END  &kp END  &trans
-&trans &trans        &trans &trans  &trans  &kp PG_UP    &kp LEFT &kp DOWN  &trans    &trans   &kp AT   &trans
-&trans &trans        &trans &trans  &trans  &kp PG_DN    &trans   &trans    &trans    &trans   &kp PIPE &trans
+&trans &trans        &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans    &trans   &trans
+&trans &trans        &trans &trans  &trans  &trans       &kp HOME &kp CARET &kp GRAVE &kp END   &kp END  &trans
+&trans &trans        &trans &trans  &trans  &kp PG_UP    &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp AT   &trans
+&trans &trans        &trans &trans  &trans  &kp PG_DN    &trans   &trans    &trans    &trans    &kp PIPE &trans
                      &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans
             >;
         };
