@@ -38,15 +38,15 @@
 |      |             |      |       |       |      |     |        |         |         |        |        |      |
 |      |             |      |       |       |      |     | HOME   |   ^     |   `     |  END   |        |      |
 |      |SCRL_UP      |      | MB1   | MB2   |PG_UP |     |  ←    |  ↓     |  ↑     |  →    |  @     |      |
-|      |SCRL_DOWN    |      |       |       |PG_DN |     |        |         |         |        | "|"    |      |
+|      |SCRL_DOWN    |      |S-C-Tab| S-Tab |PG_DN |     |        |         |         |        | "|"    |      |
                      |      |       |       |      |     |        |         |
 */
             bindings = <
-&trans &trans            &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans    &trans   &trans
-&trans &trans            &trans &trans  &trans  &trans       &kp HOME &kp CARET &kp GRAVE &kp END   &kp END  &trans
-&trans &kp K_SCROLL_UP   &trans &trans  &trans  &kp PG_UP    &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp AT   &trans
-&trans &kp K_SCROLL_DOWN &trans &trans  &trans  &kp PG_DN    &trans   &trans    &trans    &trans    &kp PIPE &trans
-                         &trans &trans  &trans  &trans       &trans   &trans    &trans    &trans
+&trans &trans            &trans          &trans      &trans  &trans       &trans           &trans          &trans      &trans            &trans   &trans
+&trans &trans            &trans          &trans      &trans  &trans       &kp HOME         &kp CARET       &kp GRAVE   &kp END           &kp END  &trans
+&trans &kp K_SCROLL_UP   &trans          &kp MB1     &kp MB2 &kp PG_UP    &kp LEFT         &kp DOWN        &kp UP      &kp RIGHT         &kp AT   &trans
+&trans &kp K_SCROLL_DOWN &kp LS(LC(TAB)) &kp LC(TAB) &trans  &kp PG_DN    &kp RC(LG(LEFT)) &kp LS(LC(TAB)) &kp LC(TAB) &kp RC(LG(RIGHT)) &kp PIPE &trans
+                         &trans          &trans      &trans  &trans       &trans           &trans          &trans      &trans
             >;
         };
 
