@@ -1,3 +1,4 @@
+name: rock56
 build:
   settings:
     board_root: .

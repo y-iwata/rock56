@@ -1,0 +1,17 @@
+if SHIELD_ROCK56_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "rock56"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_ROCK56_LEFT || SHIELD_ROCK56_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
+

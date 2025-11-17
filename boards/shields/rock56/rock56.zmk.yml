@@ -1,0 +1,11 @@
+file_format: "1"
+id: rock56
+name: Rock56
+type: shield
+url: https://github.com/y-iwata/rock56
+requires: [seeed_xiao]
+features:
+  - keys
+siblings:
+  - rock56_left
+  - rock56_right
