@@ -20,7 +20,7 @@
 ---
 include:
      - board: seeeduino_xiao_ble
-       shield: rock56_left rgbled_adapter
+       shield: rock56_left
      - board: seeeduino_xiao_ble
-       shield: rock56_right rgbled_adapter
+       shield: rock56_right
 
