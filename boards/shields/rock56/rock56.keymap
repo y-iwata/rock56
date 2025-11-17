@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+a
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -27,7 +28,7 @@
 &kp TAB   &kp Q  &kp W    	           &kp E     &kp R  &kp T           &kp Y     &kp U  &kp I       &kp O      		 &kp P    &kp PIPE
 &kp LCTRL &kp A  &kp S    	           &kp D     &kp F  &kp G           &kp H     &kp J  &kp K       &kp L      		 &kp SEMI &kp LCTRL
 &kp LSHFT &kp Z  &kp X    	           &kp C     &kp V  &kp B           &kp N     &kp M  &kp COMMA   &kp DOT    		 &kp FSLH &kp RSHFT
-                 &mt LGUI INT_MUHENKAN &lt 2 RET &mo 1  &lt 3 ESC       &lp 3 DEL &mo 1  &lp 2 SPACE &mt RALT INT_HENKAN
+                 &mt LGUI INT_MUHENKAN     &lt 2 RET &mo 1  &lt 3 ESC       &lp 3 DEL &mo 1  &lp 2 SPACE &mt RALT INT_HENKAN
             >;
         };
 
